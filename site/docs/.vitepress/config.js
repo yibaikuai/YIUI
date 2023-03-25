@@ -1,6 +1,6 @@
 export default {
-    title: 'yibaikuai-ui',
-    // base: process.env.NODE_ENV === 'production' ? '/easyest/' : '/',
+    title: 'YIUI',
+    base: process.env.NODE_ENV === 'production' ? '/YIUI/' : '/',
     themeConfig: {
         nav: [{ text: '文档', link: '/guild/introduce' },
             { text: "指南", link: "/guild/installation" },
