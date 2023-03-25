@@ -1,11 +1,7 @@
 <template>
-<div>测试</div>
+  <div>
+    <yi-button>测试按钮</yi-button>
+  </div>
 </template>
-
 <script lang="ts" setup>
-
 </script>
-
-<style scoped>
-
-</style>
