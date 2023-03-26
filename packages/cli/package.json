@@ -1,12 +1,13 @@
 {
   "name": "create-yiui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "index.js",
   "type": "module",
   "keywords": [
     "easyest",
-    "vue3组件库"],
+    "vue3组件库"
+  ],
   "author": "yibaikuai",
   "scripts": {
     "release": "release-it"
