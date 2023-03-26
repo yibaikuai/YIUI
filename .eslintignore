@@ -1,0 +1,4 @@
+**.d.ts
+/packages/YIUI
+dist
+node_modules

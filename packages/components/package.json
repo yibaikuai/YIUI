@@ -5,9 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.29.7"
+  }
 }
