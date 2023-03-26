@@ -8,6 +8,9 @@
     "easyest",
     "vue3组件库"],
   "author": "yibaikuai",
+  "scripts": {
+    "release": "release-it"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yibaikuai/YIUI"
