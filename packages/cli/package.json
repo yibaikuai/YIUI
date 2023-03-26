@@ -1,0 +1,24 @@
+{
+  "name": "create-yiui",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "type": "module",
+  "keywords": [
+    "easyest",
+    "vue3组件库"],
+  "author": "yibaikuai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yibaikuai/YIUI"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^6.3.0",
+    "prompts": "^2.4.2"
+  }
+}
