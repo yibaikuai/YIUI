@@ -6,7 +6,14 @@ import { defineProps, computed } from "vue";
 import "./style/index.less";
 defineOptions({ name: "yi-button" });
 type ButtonProps = {
-  type?: string;
+  /**
+   * 按钮类型
+   * @type {'default'|'primary'|'success'|'warning'|'danger'}
+   */
+  type?:{
+    default: 'default',
+    type: String,
+  }
 };
 const buttonProps = defineProps<ButtonProps>();
 const buttonStyle = computed(() => {

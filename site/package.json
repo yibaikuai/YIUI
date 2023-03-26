@@ -17,6 +17,6 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@yibaikuai/yi-ui": "workspace:^1.0.1"
+    "@yibaikuai/yi-ui": "workspace:^1.0.2"
   }
 }
