@@ -1,8 +1,8 @@
 {
   "name": "@yibaikuai/yi-ui",
   "version": "1.0.1",
-  "main": "/YIUI/lib/index.js",
-  "module": "/YIUI/es/index.mjs",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
   "files": [
     "es",
     "lib"

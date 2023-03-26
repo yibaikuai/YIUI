@@ -61,8 +61,11 @@ importers:
 
   site:
     specifiers:
+      '@yibaikuai/yi-ui': workspace:^1.0.1
       vitepress: 1.0.0-alpha.62
       vue: ^3.2.36
+    dependencies:
+      '@yibaikuai/yi-ui': link:../packages/YIUI
     devDependencies:
       vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.62
       vue: registry.npmmirror.com/vue/3.2.36

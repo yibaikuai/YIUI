@@ -8,11 +8,15 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.62",
     "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@yibaikuai/yi-ui": "workspace:^1.0.1"
   }
 }
