@@ -21,6 +21,15 @@ export default {
                     ]
                 },
                 {
+                  text: '组件',
+                    items: [
+                        {
+                            text: 'Button 按钮',
+                            link: '/components/button/'
+                        }
+                        ]
+                },
+                {
                     text: '开发',
                     items: [
                         {
