@@ -1,1 +1,39 @@
-## 快速开始
+# 快速开始
+
+- 安装 create-yiui
+
+```
+npm install create-yiui -g
+```
+
+- 创建项目
+
+```
+create-yiui
+```
+
+- 安装 pnpm
+
+```
+npm install pnpm -g
+```
+
+- 安装依赖
+
+```
+pnpm install
+```
+
+- 打包示例组件库
+
+**注意:** 这里需要先执行一次打包,因为组件库文档引用了打包后的文件
+
+```
+pnpm run YIUI:build
+```
+
+- 启动测试项目
+
+```
+pnpm run YIUI:dev
+```

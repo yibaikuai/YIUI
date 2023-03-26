@@ -3,7 +3,6 @@ export default {
     base: process.env.NODE_ENV === 'production' ? '/YIUI/' : '/',
     themeConfig: {
         nav: [{ text: '文档', link: '/guild/introduce' },
-            { text: "指南", link: "/guild/installation" },
             { text: "组件", link: "/components/button/" },],
         sidebar: {
             '/': [
@@ -40,20 +39,11 @@ export default {
                             text: '组件开发',
                             link: '/develop/component'
                         },
-                        {
-                            text: '全局组件',
-                            link: '/develop/global'
-                        },
-
-                        {
-                            text: '打包发布',
-                            link: '/develop/build'
-                        }
                     ]
                 }
             ]
         },
 
-        socialLinks: [{ icon: 'github', link: 'https://github.com/yibaikuai/yibaikuai-ui' }]
+        socialLinks: [{ icon: 'github', link: 'https://github.com/yibaikuai/YIUI' }]
     }
 };

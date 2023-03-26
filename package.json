@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:YIUI": "gulp -f packages/components/script/build/index.ts",
+    "YIUI:build": "gulp -f packages/components/script/build/index.ts",
     "publish:YIUI": "gulp -f packages/components/script/publish/index.ts",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
-    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,less}\""
+    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,less}\"",
+    "YIUI:dev": "pnpm run --filter ./play dev"
   },
   "keywords": [],
   "author": "",
