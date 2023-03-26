@@ -12,7 +12,7 @@ const optionDefinitions = [
 const promptsOptions = [
     {
         type: "text",
-        name: "project-name",
+        name: "name",
         message: "请输入项目名称",
     },
     {
@@ -56,13 +56,12 @@ const helpSections = [
 const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
-    1: 'https://gitee.com/geeksdidi/kittyui.git',
-    2: 'https://github.com/yibaikuai/YIUI.git'
+    0: 'https://gitee.com/geeksdidi/kittyui.git',
+    1: 'https://github.com/yibaikuai/YIUI.git#main'
 };
 const getUserInfo = async () => {
     const res = await prompts(promptsOptions);
-    console.log(res)
-    // if (!res.name || !res.template) return;
+    if (!res.name ) return;
     gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true });
 };
 const runOptions = () => {
