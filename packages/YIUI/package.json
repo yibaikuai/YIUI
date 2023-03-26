@@ -1,0 +1,21 @@
+{
+  "name": "yiui",
+  "version": "1.0.0",
+  "main": "../yibaikuai-ui/lib/index.js",
+  "module": "../yibaikuai-ui/es/index.mjs",
+  "files": [
+    "../yibaikuai-ui/es",
+    "lib"
+  ],
+  "keywords": [
+    "yiui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "yibaikuai",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}
